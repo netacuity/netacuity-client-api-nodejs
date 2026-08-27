@@ -1,0 +1,34 @@
+{
+  "name": "netacuity-client-api",
+  "version": "7.0.0",
+  "description": "Node.js client library for querying the NetAcuity IP intelligence server",
+  "main": "lib/NetAcuityAPI.js",
+  "keywords": [
+    "netacuity",
+    "geolocation",
+    "ip",
+    "ip-intelligence",
+    "digital-element"
+  ],
+  "author": "Digital Envoy",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/netacuity/netacuity-client-api-nodejs.git"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "ipaddr.js": "^2.4.0",
+    "randomstring": "^1.1.5",
+    "validator": "^13.9.0",
+    "xml2js": "^0.6.0"
+  },
+  "devDependencies": {
+    "jest": "^30.0.0"
+  },
+  "scripts": {
+    "test": "jest"
+  }
+}
